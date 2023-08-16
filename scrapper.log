@@ -5386,3 +5386,39 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.21:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:39:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:39:58] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:39:58] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:39:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:39:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Vivo', 'Name': 'Rajiv  Yadav', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Good performance'}, {'Product': 'Vivo', 'Name': 'Kunal Pratap Singh ', 'Rating': '4', 'CommentHead': 'Pretty good', 'Comment': 'Only charging is slow other wise all features are good camera 📸 4.5'}, {'Product': 'Vivo', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Nice'}, {'Product': 'Vivo', 'Name': 'Sandeep kumar', 'Rating': '4', 'CommentHead': 'Very Good', 'Comment': 'I like this mobile 😊'}, {'Product': 'Vivo', 'Name': 'Noshad  Ali', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Beautiful phone📱 camera is good'}, {'Product': 'Vivo', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'T2x awesome pictures best smartphone'}, {'Product': 'Vivo', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Impressive 👍. Go for it....'}, {'Product': 'Vivo', 'Name': 'Shivam Kumar', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'This is best smartphone I like camera and  battery back up'}, {'Product': 'Vivo', 'Name': 'Manas kumar sahoo', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Average but good'}, {'Product': 'Vivo', 'Name': 'Gajendran Parthiban', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': "The mobile is very good looking.. It's performance okay.. camera also good in this price range.."}, {'Product': 'Vivo', 'Name': 'Gajendran Parthiban', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': "The mobile is very good looking.. It's performance okay.. camera also good in this price range.."}]
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:40:08] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:40:09] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:40:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.21:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:51:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:51:49] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:51:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:51:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:51:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'Redmi', 'Name': 'Mizanur Rahaman', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Nice camera.'}, {'Product': 'Redmi', 'Name': 'rahul kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Best option in this price point'}, {'Product': 'Redmi', 'Name': 'SAGAR T THORBOLE', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': "This is Honest Review. Performance is best. 5/5Display is also best. 5/5Camera is Average 3/5Battery is Best 5/5(No Lag No Hang, Smooth UI, Perfect Design) Don't Think Go for it"}, {'Product': 'Redmi', 'Name': 'vishal Katariya', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': ''}, {'Product': 'Redmi', 'Name': 'Kannan Cs', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'The best mobile in under 11000 the best and best phone  usefull money'}, {'Product': 'Redmi', 'Name': 'Manzoor Hussain', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'I love my phone'}, {'Product': 'Redmi', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent'}, {'Product': 'Redmi', 'Name': 'sushant kumar', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Super smart phone nice display love this phone'}, {'Product': 'Redmi', 'Name': 'Snigdhata Ghosh', 'Rating': '4', 'CommentHead': 'Classy product', 'Comment': 'Value for money.... Good quality, Good looking...'}, {'Product': 'Redmi', 'Name': 'Naidu Sasikala', 'Rating': '1', 'CommentHead': 'Terrible product', 'Comment': 'Product not good ,battery charging takes more time finger sensor issue,over heating mobile'}, {'Product': 'Redmi', 'Name': 'Naidu Sasikala', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Product not good ,battery charging takes more time finger sensor issue,over heating mobile'}]
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:51:56] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:51:56] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [16/Aug/2023 10:51:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
